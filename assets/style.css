@@ -70,3 +70,14 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
+.past{
+  background-color: #C0C0C0;
+}
+
+.current{
+  background-color:  #ff8080;
+}
+
+.future{
+  background-color: #77dd77;
+}
