@@ -10,7 +10,7 @@ $(document).ready(() => {
     // get the weekday of today and the date 
     function renderDate() {
         let weekNum = today.weekday;
-        $('#currentDay').text(`${Info.weekdays('long')[weekNum]},  ${today.toFormat('MMM dd, yyyy')}`)
+        $('#currentDay').text(`${Info.weekdays('long')[weekNum-1]},  ${today.toFormat('MMM dd, yyyy')}`)
     }
 
     // run a .each on each textarea input and compare the currentHour with the id attribute inside textarea
