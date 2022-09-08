@@ -33,7 +33,7 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
 }
 
 .hour {
@@ -69,3 +69,4 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
