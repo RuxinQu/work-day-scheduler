@@ -7,6 +7,16 @@ $(document).ready(() => {
         const toDoTime = $(event.currentTarget).siblings('.hour').text()
         localStorage.setItem(toDoTime, JSON.stringify(toDo));
     }
+    //NOTE: $(this) can't be used inside arrow function, it can be used in a function expression. 
+    //Below is an alternative of the arrow function
+
+    /*const saveToDo = function (event) {
+        event.preventDefault();
+        const toDo = $(this).siblings('textarea').val()
+        const toDoTime = $(this).siblings('.hour').text()
+        localStorage.setItem(toDoTime, JSON.stringify(toDo));
+    }
+    */
 
     const renderToDo = () => {
         $('.hour').each(function () {
