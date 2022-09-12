@@ -13,7 +13,8 @@ View the deployed website: https://ruxinqu.github.io/work-day-scheduler/
 * The user input is saved to local storage.
 * The animation below shows the web application's appearance and functionality: 
 
-![demo video of the work day scheduler](./assets/work-day-scheduler.gif)
+
+![The demo video of the work day scheduler](./assets/work-day-scheduler-demo.gif)
 
 ## Sources Referenced
 Google 
